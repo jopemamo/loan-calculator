@@ -3,6 +3,8 @@
   If you want to run it in your machine: 
   
       git clone git@github.com:jopemoma/loan-calculator.git
+
+      cd loan-calculator
       
       npm install
       
@@ -11,6 +13,8 @@
 I chose React to create an interface easy to use for the user and with the posibility of expansion for new types of loans or different interest rates. I didn't create a back-end for this task because I'm not storing any information. 
 # Deployment
   It is deployed at netlify and connected to the main branch of this repository to change automatically:
+
+  https://quirky-lewin-7ad0c9.netlify.app/
   
 # Work Methodology
 I started the project in the development branch. When I was satisfy with the functionality, I merged it to the main branch. This branch is also used for the deployment in netlify, any change done there will automatically update the deployed version.
@@ -22,4 +26,3 @@ When selecting amount and payback time, the application generates a monthly payb
 month and add the generated interest based on the principal left and the anual interest. The interest is calculated every month. The amortisation schedule, showes the amount of principal
 and the amount of interest that comprise each payment until the loan is paid off at the end of its term.
 
-# loan-calculator
