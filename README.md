@@ -14,7 +14,7 @@ I chose React to create an interface easy to use for the user and with the posib
 # Deployment
   It is deployed at netlify and connected to the main branch of this repository to change automatically:
 
-  https://quirky-lewin-7ad0c9.netlify.app/
+  https://loan-calculator-jopemamo.netlify.app/
   
 # Work Methodology
 I started the project in the development branch. When I was satisfy with the functionality, I merged it to the main branch. This branch is also used for the deployment in netlify, any change done there will automatically update the deployed version.
